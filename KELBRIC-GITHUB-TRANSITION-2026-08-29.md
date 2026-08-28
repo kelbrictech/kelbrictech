@@ -2,7 +2,7 @@
 
 **Transition:** `arjayb` → `kelbrictech`  
 **Date:** 2026-08-29  
-**Status:** Pre-rename protection phase
+**Status:** Reverse-prep / pre-rename protection phase
 
 ## Protection completed
 
@@ -30,6 +30,29 @@ This preserves the pre-transition repository state independently of later README
 16. `STAYVIA` — private
 17. `STELLAR`
 18. `SHALA`
+
+## Reverse-prep completed before GitHub rename
+
+### Digital Barangay / Render CORS compatibility — DONE
+
+The backend was changed to support a comma-separated allowlist in `CORS_ORIGIN` instead of a single origin.
+
+The production Render service is now configured to accept both:
+
+- `https://arjayb.github.io`
+- `https://kelbrictech.github.io`
+
+This preserves the current production frontend while pre-authorizing the future KELBRIC GitHub Pages origin.
+
+Production Render deploy completed successfully after the compatibility change.
+
+### Neon — NO MIGRATION REQUIRED
+
+The DigitalBarangay Neon project and production branch are independent of the GitHub username. Database URLs, schema, data, and project identity are not being changed for this transition.
+
+### Cloudinary — NO MIGRATION REQUIRED
+
+Cloudinary account resources and delivery/API credentials are independent of the GitHub username. No asset migration or credential rotation is required for the handle change.
 
 ## Known migration-sensitive items
 
@@ -59,15 +82,9 @@ Project-site URLs use the account namespace. Existing links using:
 
 must be treated as migration-sensitive and replaced with the new namespace or, preferably, a verified KELBRIC custom domain.
 
-### Digital Barangay backend CORS
+### Render repository sources
 
-The backend currently accepts a single origin from `CORS_ORIGIN`. The GitHub Pages origin will change when the username changes. Before final cutover, the production Render environment must be updated so the new GitHub Pages origin is accepted.
-
-Expected post-rename origin:
-
-`https://kelbrictech.github.io`
-
-The frontend API base URL itself is independent of the GitHub username and currently points to the Render backend.
+Current Render services reference GitHub repository URLs under `https://github.com/arjayb/...`. These cannot be switched to `kelbrictech` before the new namespace exists. After the GitHub username change, every Render auto-deploy source will be verified and canonicalized where the platform permits it.
 
 ### GitHub-provided noreply email / signatures
 
@@ -77,18 +94,20 @@ Any commits or signatures tied specifically to a username-based GitHub `noreply`
 
 Any `CODEOWNERS` references or `@arjayb` mentions must be changed manually. Gist URLs containing the old username do not receive the same redirect protection as repository URLs.
 
-## Cutover order
+## Reverse-first cutover order
 
 1. Preserve repository state — **DONE**.
-2. Audit hard-coded `arjayb` and `arjayb.github.io` references.
-3. Confirm `kelbrictech` is available in GitHub's username-change screen.
-4. Change account username to `kelbrictech`.
-5. Rename profile repository from `arjayb` to `kelbrictech`.
-6. Update profile README and repository links to the new canonical namespace.
-7. Update GitHub Pages URLs / custom-domain configuration.
-8. Update Render CORS for Digital Barangay and verify login/API workflows.
-9. Update local Git remotes and any external portfolio links.
-10. Run a post-transition verification of every repository and live deployment.
+2. Pre-authorize future GitHub Pages origin on Render — **DONE**.
+3. Confirm Neon and Cloudinary do not require migration — **DONE**.
+4. Audit hard-coded `arjayb` and `arjayb.github.io` references.
+5. Confirm `kelbrictech` is available in GitHub's username-change screen.
+6. Change account username to `kelbrictech`.
+7. Rename profile repository from `arjayb` to `kelbrictech`.
+8. Update profile README and repository links to the new canonical namespace.
+9. Verify GitHub Pages under the new namespace.
+10. Verify every Render repository source and auto-deploy after the rename.
+11. Update local Git remotes and external portfolio links.
+12. Remove the old `arjayb.github.io` CORS origin only after final verification.
 
 ## Rollback principle
 
