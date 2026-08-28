@@ -14,7 +14,7 @@ We use a reusable approach for rapidly turning real-world workflows into deploya
 
 ### Digital Barangay — One Iteration
 
-**[Live Demo](https://arjayb.github.io/Digital-Barangay-App/)** · **[Frontend Repository](https://github.com/arjayb/Digital-Barangay-App)** · **[Backend Repository](https://github.com/arjayb/digital-barangay-backend)**
+**[Live Demo](https://kelbrictech.github.io/Digital-Barangay-App/)** · **[Frontend Repository](https://github.com/kelbrictech/Digital-Barangay-App)** · **[Backend Repository](https://github.com/kelbrictech/digital-barangay-backend)**
 
 Digital Barangay is one working implementation of this approach, adapted for local government services. It demonstrates resident registration, authentication, document requests, community concerns, administrative workflows, persistent PostgreSQL data, and live deployment.
 
@@ -49,14 +49,14 @@ Uploads -> Cloudinary
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| **[Baker's Diary](https://github.com/arjayb/Bakers-Diary)** | A focused digital tool designed around practical bakery workflows | Web application |
-| **[RemitCompare](https://github.com/arjayb/RemitCompare)** | Compares live remittance provider rates against the mid-market rate | Vanilla JS, live FX API |
-| **[BudgetFX](https://github.com/arjayb/BudgetFX)** | Multi-currency budget ledger with live conversion | Vanilla JS, `localStorage`, live FX API |
-| **[RateAlert](https://github.com/arjayb/RateAlert)** | Currency tracker with sparkline and threshold alerts | Vanilla JS, SVG, Notifications API |
-| **[OrbitConnect](https://github.com/arjayb/OrbitConnect)** | Combines GitHub + npm activity into one developer profile | Vanilla JS, GitHub + npm APIs |
-| **[OrbitOrg](https://github.com/arjayb/OrbitOrg)** | Visualizes an organization's repositories | Vanilla JS, SVG |
-| **[OrbitStats](https://github.com/arjayb/OrbitStats)** | Repository commit activity, languages and contributors | Vanilla JS, SVG |
-| **[Orbit](https://github.com/arjayb/Orbit-a-GitHub-profile-explorer)** | GitHub profile explorer visualized as an orbit of repositories | Vanilla JS, SVG |
+| **[Baker's Diary](https://github.com/kelbrictech/Bakers-Diary)** | A focused digital tool designed around practical bakery workflows | Web application |
+| **[RemitCompare](https://github.com/kelbrictech/RemitCompare)** | Compares live remittance provider rates against the mid-market rate | Vanilla JS, live FX API |
+| **[BudgetFX](https://github.com/kelbrictech/BudgetFX)** | Multi-currency budget ledger with live conversion | Vanilla JS, `localStorage`, live FX API |
+| **[RateAlert](https://github.com/kelbrictech/RateAlert)** | Currency tracker with sparkline and threshold alerts | Vanilla JS, SVG, Notifications API |
+| **[OrbitConnect](https://github.com/kelbrictech/OrbitConnect)** | Combines GitHub + npm activity into one developer profile | Vanilla JS, GitHub + npm APIs |
+| **[OrbitOrg](https://github.com/kelbrictech/OrbitOrg)** | Visualizes an organization's repositories | Vanilla JS, SVG |
+| **[OrbitStats](https://github.com/kelbrictech/OrbitStats)** | Repository commit activity, languages and contributors | Vanilla JS, SVG |
+| **[Orbit](https://github.com/kelbrictech/Orbit-a-GitHub-profile-explorer)** | GitHub profile explorer visualized as an orbit of repositories | Vanilla JS, SVG |
 
 ## How We Build
 
