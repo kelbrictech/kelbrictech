@@ -8,7 +8,10 @@ Our focus is the **business solution as a whole**: understanding the problem, sh
 
 Where a solution produces or already contains useful operational data, we can also explore an **optional data analytics layer** — identifying meaningful questions, patterns, risks, opportunities, or decision-support outputs that the available data can responsibly support.
 
-📫 [arjayb.fb@gmail.com](mailto:arjayb.fb@gmail.com)
+Have a business problem, workflow, or product idea worth exploring?
+Work with KELBRIC Technologies through our Upwork agency.
+
+📫 https://www.upwork.com/agencies/2093432177628321269/
 
 ---
 
