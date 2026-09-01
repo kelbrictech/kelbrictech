@@ -1,6 +1,6 @@
 # KELBRIC Technologies
 
-**Building intelligent solutions. Empowering what's next.**
+**Brick by brick. Quick yet slick.**
 
 We turn business ideas, operational workflows, and domain knowledge into practical digital systems — from rapid prototypes to deployed full-stack applications.
 
