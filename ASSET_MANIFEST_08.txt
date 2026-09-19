@@ -1,0 +1,23 @@
+KELBRIC TECHNOLOGIES — PROMPT 08 ASSET MANIFEST
+
+PRODUCTION ASSETS INSTALLED
+- Hero architecture: optimized WEBP from the approved editorial concept visual.
+- HEALTHNOTE: replaced with the real HEALTHNOTE main-page project visual from the Library.
+- FITINERARY: replaced with a real FITINERARY UI-heavy panel from the approved 30-second storyboard.
+- STAYVIA: replaced with an actual embedded project visual extracted from STAYVIA-standalone-target-style-v4-brandmark.html.
+- Creato’Ready: composed exclusively from the actual approved Creato’Ready background + Sora wordmark assets.
+- More/pipeline: optimized from the approved editorial concept visual.
+- Philosophy architecture / sculpture / space: optimized WEBP assets from the approved editorial concept.
+- KELBRIC logo: actual Kelbric Technologies logo preserved as a production asset.
+- Search / hamburger / play / arrow / YouTube / Instagram / LinkedIn: standalone SVG production icons.
+
+ONE UNRESOLVED ASSET
+PRAKTISTA:
+No actual PRAKTISTA UI image or standalone HTML was found in the Library or connected GitHub search during this pass.
+The approved concept-render crop remains in place and is explicitly named:
+  praktista-reference-placeholder.webp
+It should be replaced when an actual PRAKTISTA UI screenshot/build asset is supplied or located.
+No fake PRAKTISTA interface was invented.
+
+LAYOUT
+No approved layout, typography, spacing, or responsive composition was changed during this pass.

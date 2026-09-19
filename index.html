@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <title>Kelbric Technologies — Editorial Foundation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Kelbric Technologies home">
+        <span class="brand-word">KELBRIC</span>
+        <span class="brand-sub">TECHNOLOGIES</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#products">Products</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#stories">Stories</a>
+        <a href="#company">Company</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button search-button" type="button" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="6.5"></circle>
+            <path d="M16 16l4 4"></path>
+          </svg>
+        </button>
+
+        <a class="header-cta" href="#contact">
+          <span>Build With Us</span>
+          <span aria-hidden="true">→</span>
+        </a>
+
+        <button
+          class="icon-button menu-button"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="search-overlay" id="site-search" hidden>
+    <div class="search-overlay-inner">
+      <div class="search-overlay-head">
+        <p class="search-overlay-label">SEARCH KELBRIC</p>
+        <button class="icon-button search-close" type="button" aria-label="Close search">×</button>
+      </div>
+
+      <form class="search-form" role="search">
+        <label class="sr-only" for="site-search-input">Search Kelbric Technologies</label>
+        <input
+          id="site-search-input"
+          class="search-input"
+          type="search"
+          placeholder="Type to search"
+          autocomplete="off"
+        />
+        <button class="search-submit" type="submit">Search <span aria-hidden="true">→</span></button>
+      </form>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <div class="mobile-menu-panel">
+      <div class="mobile-menu-header">
+        <div class="brand" aria-hidden="true">
+          <span class="brand-word">KELBRIC</span>
+          <span class="brand-sub">TECHNOLOGIES</span>
+        </div>
+
+        <button class="icon-button menu-close" type="button" aria-label="Close menu">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+
+      <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="#products">Products <span aria-hidden="true">↗</span></a>
+        <a href="#solutions">Solutions <span aria-hidden="true">↗</span></a>
+        <a href="#stories">Stories <span aria-hidden="true">↗</span></a>
+        <a href="#company">Company <span aria-hidden="true">↗</span></a>
+      </nav>
+
+      <a class="mobile-menu-cta" href="#contact">
+        <span>Build With Us</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+  <main class="site-shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <img src="production-assets/hero-architecture.webp" alt="" />
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 class="hero-title" id="hero-title">
+            <span>Ideas</span>
+            <span>that actually</span>
+            <span class="hero-accent">exist.</span>
+          </h1>
+
+          <p class="hero-eyebrow">APPS FOR A MORE HUMAN TOMORROW</p>
+
+          <p class="hero-body">
+            We turn real problems into beautiful, useful technology — from everyday
+            tools to bold new possibilities.
+          </p>
+
+          <div class="hero-actions">
+            <a class="hero-primary" href="#products">
+              <span>Explore Our Apps</span>
+              <span aria-hidden="true">→</span>
+            </a>
+
+            <button class="hero-story" type="button" aria-label="Watch the Story">
+              <span class="hero-play" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M9 7.6 17 12l-8 4.4Z"></path>
+                </svg>
+              </span>
+              <span>Watch the Story</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-side" aria-label="Kelbric principles">
+          <div class="hero-side-line" aria-hidden="true"></div>
+
+          <p class="hero-principles">
+            <span>PEOPLE</span>
+            <span>TOOLS</span>
+            <span>POSSIBILITIES</span>
+          </p>
+
+          <p class="hero-quote">
+            A SMALLER<br />
+            FRICTIONAL WORLD<br />
+            IS A BRIGHTER ONE.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products" aria-labelledby="products-title">
+      <div class="container products-inner">
+        <div class="products-head">
+          <div class="products-label-wrap">
+            <p class="products-label" id="products-title">OUR PRODUCTS</p>
+            <span class="products-rule" aria-hidden="true"></span>
+          </div>
+
+          <p class="products-thought">Real needs. Thoughtful solutions.</p>
+
+          <a class="products-view-all" href="#all-products">
+            <span>View All</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="products-grid">
+          <a class="product-card" href="#healthnote" aria-label="HEALTHNOTE — Your health. In your hands.">
+            <div class="product-card-media">
+              <img src="production-assets/healthnote.webp" alt="" />
+            </div>
+            <div class="product-card-shade" aria-hidden="true"></div>
+            <div class="product-card-copy">
+              <div>
+                <h3>HEALTHNOTE</h3>
+                <p>Your health. In your hands.</p>
+              </div>
+              <span class="product-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a class="product-card" href="#fitinerary" aria-label="FITINERARY — Plan healthy. Live fully.">
+            <div class="product-card-media">
+              <img src="production-assets/fitinerary.webp" alt="" />
+            </div>
+            <div class="product-card-shade" aria-hidden="true"></div>
+            <div class="product-card-copy">
+              <div>
+                <h3>FITINERARY</h3>
+                <p>Plan healthy. Live fully.</p>
+              </div>
+              <span class="product-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a class="product-card" href="#praktista" aria-label="PRAKTISTA — Rehearse. Improve. Belong.">
+            <div class="product-card-media">
+              <img src="production-assets/praktista-reference-placeholder.webp" alt="" />
+            </div>
+            <div class="product-card-shade" aria-hidden="true"></div>
+            <div class="product-card-copy">
+              <div>
+                <h3>PRAKTISTA</h3>
+                <p>Rehearse. Improve. Belong.</p>
+              </div>
+              <span class="product-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a class="product-card" href="#stayvia" aria-label="STAYVIA — Hospitality, streamlined.">
+            <div class="product-card-media">
+              <img src="production-assets/stayvia.webp" alt="" />
+            </div>
+            <div class="product-card-shade" aria-hidden="true"></div>
+            <div class="product-card-copy">
+              <div>
+                <h3>STAYVIA</h3>
+                <p>Hospitality, streamlined.</p>
+              </div>
+              <span class="product-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a class="product-card" href="#creatoready" aria-label="Creato’Ready — Content, in any size.">
+            <div class="product-card-media">
+              <img src="production-assets/creatoready.webp" alt="" />
+            </div>
+            <div class="product-card-shade" aria-hidden="true"></div>
+            <div class="product-card-copy">
+              <div>
+                <h3>Creato’Ready</h3>
+                <p>Content, in any size.</p>
+              </div>
+              <span class="product-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a class="product-card product-card-more" href="#pipeline" aria-label="More — in the pipeline.">
+            <div class="product-card-media">
+              <img src="production-assets/more.webp" alt="" />
+            </div>
+            <div class="product-card-shade" aria-hidden="true"></div>
+            <div class="product-card-copy">
+              <div>
+                <h3>More</h3>
+                <p>in the pipeline.</p>
+              </div>
+              <span class="product-card-arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach" id="solutions" aria-labelledby="approach-title">
+      <div class="container approach-inner">
+        <div class="approach-copy">
+          <div class="approach-eyebrow-wrap">
+            <p class="approach-eyebrow">THE KELBRIC APPROACH</p>
+            <span class="approach-eyebrow-line" aria-hidden="true"></span>
+          </div>
+
+          <h2 class="approach-title" id="approach-title">
+            <span>Technology</span>
+            <span>should feel like</span>
+            <span class="approach-accent">progress.</span>
+          </h2>
+
+          <p class="approach-body">
+            We design and build applications that remove friction, empower people,
+            and create real-world impact. Practical. Beautiful. Human-centered.
+          </p>
+
+          <a class="approach-cta" href="#philosophy">
+            <span>Our Philosophy</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="approach-features desktop-approach-features">
+          <article class="approach-feature">
+            <div class="approach-feature-image">
+              <img src="production-assets/approach-architecture.webp" alt="" />
+            </div>
+            <p class="approach-number">01</p>
+            <h3>Real Problems</h3>
+            <p>We start with everyday frustrations and meaningful opportunities.</p>
+          </article>
+
+          <article class="approach-feature">
+            <div class="approach-feature-image">
+              <img src="production-assets/approach-sculpture.webp" alt="" />
+            </div>
+            <p class="approach-number">02</p>
+            <h3>Thoughtful Design</h3>
+            <p>Clean, intuitive, and focused on what matters.</p>
+          </article>
+
+          <article class="approach-feature">
+            <div class="approach-feature-image">
+              <img src="production-assets/approach-space.webp" alt="" />
+            </div>
+            <p class="approach-number">03</p>
+            <h3>Bigger Possibilities</h3>
+            <p>Tools today for a more open, creative tomorrow.</p>
+          </article>
+        </div>
+
+        <div class="mobile-approach-visual">
+          <img src="production-assets/approach-architecture.webp" alt="" />
+          <p class="mobile-approach-quote">
+            A SMALLER FRICTIONAL WORLD<br />
+            IS A BRIGHTER ONE.
+          </p>
+        </div>
+
+        <div class="mobile-principles">
+          <p class="mobile-principles-label">REAL NEEDS. THOUGHTFUL SOLUTIONS.</p>
+
+          <article class="mobile-principle">
+            <p class="mobile-principle-number">01</p>
+            <div>
+              <h3>Real Problems</h3>
+              <p>We start with everyday frustrations and meaningful opportunities.</p>
+            </div>
+          </article>
+
+          <article class="mobile-principle">
+            <p class="mobile-principle-number">02</p>
+            <div>
+              <h3>Thoughtful Design</h3>
+              <p>Clean, intuitive, and focused on what matters.</p>
+            </div>
+          </article>
+
+          <article class="mobile-principle">
+            <p class="mobile-principle-number">03</p>
+            <div>
+              <h3>Bigger Possibilities</h3>
+              <p>Tools today for a more open, creative tomorrow.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-visual" aria-label="Kelbric closing statement">
+      <div class="container closing-visual-inner">
+        <a class="closing-card" href="#company">
+          <img src="production-assets/approach-space.webp" alt="" />
+          <div class="closing-card-shade" aria-hidden="true"></div>
+          <div class="closing-card-copy">
+            <p>
+              A BRIGHTER TOMORROW<br />
+              IS A KINDER ONE.
+            </p>
+            <span class="closing-card-arrow" aria-hidden="true">→</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="company">
+    <div class="container footer-inner">
+      <div class="footer-brand-block">
+        <a class="brand footer-brand" href="#" aria-label="Kelbric Technologies home">
+          <span class="brand-word">KELBRIC</span>
+          <span class="brand-sub">TECHNOLOGIES</span>
+        </a>
+        <p class="footer-tagline">Build a kinder, smarter everyday.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#products">Products</a>
+        <a href="#stories">Stories</a>
+        <a href="#company">Company</a>
+        <a href="#careers">Careers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-socials" aria-label="Social links">
+        <a href="#" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3.5" y="6.5" width="17" height="11" rx="3"></rect>
+            <path d="M10 9.5 15 12l-5 2.5Z"></path>
+          </svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+            <circle cx="12" cy="12" r="3.25"></circle>
+            <circle cx="17.2" cy="6.8" r="0.8" class="fill-dot"></circle>
+          </svg>
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.5 9.5v8"></path>
+            <path d="M6.5 6.6v.1"></path>
+            <path d="M10.5 17.5v-8"></path>
+            <path d="M10.5 13c.9-2.2 5.6-2.2 5.6 1v3.5"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-rule" aria-hidden="true"></div>
+        <p class="footer-copyright">© 2026 Kelbric Technologies. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="header.js"></script>
+</body>
+</html>
